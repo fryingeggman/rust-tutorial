@@ -1,4 +1,6 @@
+#[allow(unused_imports)]
 use env_logger::{Builder, Env, Logger, Target};
+#[allow(unused_imports)]
 use log::{debug, error, info, trace, warn, LevelFilter};
 
 fn main() {
