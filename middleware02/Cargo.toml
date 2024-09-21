@@ -1,0 +1,11 @@
+[package]
+name = "middleware02"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = { version = "0.7.6", features = ["json"] }
+serde = "1.0.210"
+serde_json = "1.0.128"
+sqlx = { version = "0.8.2", features = ["postgres", "runtime-tokio-rustls"] }
+tokio = { version = "1.40.0", features = ["full"] }

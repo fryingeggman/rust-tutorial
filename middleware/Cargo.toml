@@ -1,0 +1,10 @@
+[package]
+name = "middleware"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = { version = "0.7.6", features = ["json"] }
+serde = "1.0.210"
+serde_json = "1.0.128"
+tokio = { version = "1.40.0", features = ["full"] }
